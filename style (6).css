@@ -1,0 +1,36 @@
+#body{
+    color: aquamarine;
+}
+.span1{
+    font-size:medium;
+    margin-left: 10px;
+}
+.span2{
+    font-size: medium;
+    float: right;
+    margin-right: 10px;
+}
+
+h1{
+    color: darkgreen;
+    background-color: brown;
+}
+#showsketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite
+}
+@keyframes example{
+    frem{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
